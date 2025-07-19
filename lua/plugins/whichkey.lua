@@ -7,5 +7,15 @@ return {
     require("mini.icons").setup()
   end,
 },
+{
+  "windwp/nvim-autopairs",
+  config = true,
+  event = "InsertEnter",
+},
+{
+  "numToStr/Comment.nvim",
+  config = true,
+  event = "VeryLazy",
+}
  }
 
