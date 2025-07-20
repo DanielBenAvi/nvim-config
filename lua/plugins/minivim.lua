@@ -35,16 +35,6 @@ return {
     end,
   },
   {
-    "echasnovski/mini.files",
-    version = false,
-    keys = {
-      { "<leader>e", function() require("mini.files").open() end, desc = "Open Mini Files" },
-    },
-    config = function()
-      require("mini.files").setup()
-    end,
-  },
-  {
     "echasnovski/mini.clue",
     version = false,
     event = "VeryLazy",
